@@ -1,7 +1,16 @@
 KEYCUT
 ======
 
+INTRO
+-----
+
 A C Program that breaks an ASCII HEX string into smaller chunks with configurable chunk size and separator.
+This feature is useful to break up TDES keys and HEX STRINGS into appropriate sizes for manipulation in BASH
+scripts.
+
+HOW IT WORKS
+------------
+
 This program works by reading an ASCII string from STDIN, command line input or PIPEd STDIN and breaking this 
 into substrings by inserting a separator ('chop') character at a specified interval (chop size). The modified
 string is then copied to STDOUT. The default separator is the pipe symbol '|', but this can be changed to any 
