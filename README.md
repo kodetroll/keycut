@@ -11,13 +11,13 @@ the '-s' or '--size' command line arg, e.g. keycut -s 4, will insert chop charac
 
 EXAMPLES
 --------
-
+```
 > keycut 0000000000000000FFFFBBBBCCCCEEEE
 0000000000000000|FFFFBBBBCCCCEEEE
 
 > keycut -c '/' -s 4 0000000000000000FFFFBBBBCCCCEEEE
 0000/0000/0000/0000/FFFF/BBBB/CCCC/EEEE
-
+```
 INSTALLING
 ----------
 
