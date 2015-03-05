@@ -1,0 +1,6 @@
+To build and install this program:
+
+type 'make clean; make'
+then type 'sudo make install'
+
+
