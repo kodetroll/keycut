@@ -1,3 +1,11 @@
+/* keycut.c - A C Program that breaks an ASCII HEX string into smaller chunks with
+ * configurable chunk size and separator.
+ *
+ * (C) 2015 KB4OID Labs - A division of Kodetroll Heavy Industries
+ * Author: Kodetroll
+ * Date: March 2015
+ *
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
