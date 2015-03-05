@@ -27,6 +27,7 @@ USAGE
 ----
 Usage info can be seen by using the '-h' or '--help' command line arguments.
 
+```
 keycut <OPTIONS> <VALUE>
 where: <OPTIONS>
     --help -h         Show Program Help (This info).
@@ -35,6 +36,7 @@ where: <OPTIONS>
     --size -s <SIZE>  Set size to cut to.
     --data -d <DATA>  Set VALUE to DATA.
     <VALUE>        VALUE to be cut
+```
 
 INSTALLING
 ----------
