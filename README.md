@@ -11,13 +11,31 @@ the '-s' or '--size' command line arg, e.g. keycut -s 4, will insert chop charac
 
 EXAMPLES
 --------
+
 ```
 > keycut 0000000000000000FFFFBBBBCCCCEEEE
 0000000000000000|FFFFBBBBCCCCEEEE
 
 > keycut -c '/' -s 4 0000000000000000FFFFBBBBCCCCEEEE
 0000/0000/0000/0000/FFFF/BBBB/CCCC/EEEE
+
+> echo $KEY | keycut
+0000000000000000|FFFFBBBBCCCCEEEE
 ```
+
+USAGE
+----
+Usage info can be seen by using the '-h' or '--help' command line arguments.
+
+keycut <OPTIONS> <VALUE>
+where: <OPTIONS>
+    --help -h         Show Program Help (This info).
+    --version -v      Show version info and exit.
+    --chop -c <CHOP>  Set CHOP character.
+    --size -s <SIZE>  Set size to cut to.
+    --data -d <DATA>  Set VALUE to DATA.
+    <VALUE>        VALUE to be cut
+
 INSTALLING
 ----------
 
